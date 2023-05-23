@@ -3,3 +3,5 @@ services:
   db:
     image: sakiladb/mysql
     container_name: sakiladb-mysql 
+    ports:
+      - 3306:3306
